@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Flask/Python Logs
+*.log
+
+# Environment variables file
+.env
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE Files
+.vscode/
+.idea/
+
+# Database files
+*.db
+*.sqlite3
+
+# Jupyter Notebook Files
+.ipynb_checkpoints/
+
+# Test coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+
+# Pyre type checker
+.pyre/
+
+# macOS
+.DS_Store
+
+# Docker
+docker-compose.override.yml
+
+# Debug and profiling
+*.prof
+*.temp
+*.log
+
+# Ignore local node_modules for packages like ESLint if needed in the future
+node_modules/
